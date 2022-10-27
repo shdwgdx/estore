@@ -108,8 +108,8 @@
                                 <i class="far fa-user"></i>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Авторизация</a></li>
-                                <li><a class="dropdown-item" href="#">Регистрация</a></li>
+                                <li><a class="dropdown-item" href="{{ route('login') }}">Авторизация</a></li>
+                                <li><a class="dropdown-item" href="{{ route('register') }}">Регистрация</a></li>
                             </ul>
                         </div>
 
