@@ -8,9 +8,11 @@
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{ asset('css/fontawesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/all.min.css') }}">
+    <!-- IonIcons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
     <!-- Theme style -->
     <link rel="stylesheet" href="{{ asset('css/adminlte.min.css') }}">
     @yield('styles')
@@ -97,10 +99,14 @@
     <!-- ./wrapper -->
 
     <!-- REQUIRED SCRIPTS -->
-
+    <!-- jQuery -->
+    {{-- <script src="plugins/jquery/jquery.min.js"></script> --}}
+    <!-- Bootstrap -->
+    {{-- <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script> --}}
+    <!-- AdminLTE -->
+    {{-- <script src="dist/js/adminlte.js"></script> --}}
     @vite('resources/js/bootstrap4/app.js')
     <!-- AdminLTE App -->
-    <script src="{{ asset('js/adminlte.min.js') }}" defer></script>
 
     @yield('scripts')
 </body>
